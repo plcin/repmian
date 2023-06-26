@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+   
+    font-size: 20px;
+    font-family: arial, verdana, serif;
+
+}
+#head-contenier{
+    height: 100vh;
+    
+   
+    background-image: url(img/fundo\,css.jpg);
+
+
+    display: flex;
+}
+h2{  
+ 
+ 
+ padding-top: 8px;
+ color: white;
+ align-items: center;
+ 
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-left: 10px;
+    text-indent: 15px;
+    padding: 30px;
+    
+}
+.contenier{
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #191919;
+    
+}
+.contenier div h1{
+    background-color: #191919;
+    padding: 0px 2px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: white ;
+    padding: 3px;
+   
+    
+}
+.social-midia{
+    text-decoration: none;
+    color: #191919;
+    padding: 1rem 1rem;
+    border:  1px solid #191919;
+    min-width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 4s ease-in-out;
+    background-color: #191919;
+    
+
+}
+
+.imgg{
+    height: 100px;
+    
+    align-items: center;
+    border-radius: 100%;
+}
+
+.head{
+    padding-left: 45px;
+    
+}
+.title{
+    text-indent: 25px;
+}
+  
+
+@media (min-width:320px) {.contenier{display: flex;}}
+@media (min-width:480px)  {.contenier{display: flex;}}
+@media (min-width:600px)  {.contenier{display: flex;}}
+@media (min-width:801px)  {.contenier{display: flex;}}
+@media (min-width:1025px) {.contenier{display: flex;}}
+@media (min-width:1281px) {.contenier{display: flex;}}
